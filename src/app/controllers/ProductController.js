@@ -8,7 +8,7 @@ class ProductController {
       const schema = Yup.object().shape({
         name: Yup.string().required(),
         price: Yup.number().required(),
-        category_id: Yup.number().required(),
+        category_id: Yup.number(),
       })
 
       try {

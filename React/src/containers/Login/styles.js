@@ -59,7 +59,7 @@ export const Input = styled.input`
   border-radius: 5px;
   background: #fff;
   box-shadow: 3px 3px 10px 0px rgba(74, 144, 226, 0.19);
-  border: none;
+  border: ${props => (props.error ? '2px solid #CC1717' : 'none')};
   height: 40px;
   width: 390px;
   padding-left: 10px;
@@ -100,4 +100,12 @@ export const SignInLink = styled.p`
     text-decoration: underline;
     cursor: pointer;
   }
+`
+
+export const Error = styled.p`
+  color: #cc1717;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 `

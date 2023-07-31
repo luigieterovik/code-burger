@@ -39,6 +39,11 @@ export const ContainerItems = styled.div`
     height: 94px;
     margin: 0 auto;
   }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
 `
 
 export const Label = styled.p`

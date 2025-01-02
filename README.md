@@ -1,7 +1,7 @@
-# Code Burger API
+# Code Burger Master
 
 ## Descrição
-A **Code Burger API** é uma API RESTful desenvolvida em Node.js para gerenciar uma hamburgueria. Ela utiliza um banco de dados relacional (PostgreSQL) e um banco de dados não-relacional (MongoDB) com o Sequelize ORM para manipulação de dados.
+A **Code Burger Master** é uma API RESTful desenvolvida em Node.js para gerenciar uma hamburgueria. Ela utiliza um banco de dados relacional (PostgreSQL) e um banco de dados não-relacional (MongoDB) com o Sequelize ORM para manipulação de dados.
 
 ## Funcionalidades
 - Cadastro de usuários.
@@ -64,6 +64,8 @@ A **Code Burger API** é uma API RESTful desenvolvida em Node.js para gerenciar 
 
 ## Utilização
 
+Antes de usar qualquer funcionalidade do software, será necessário um token de autorização.
+
 1. Utilize um software para realizar requisições HTTP, como o Postman ou Insomnia.
 
 ### Cadastro de usuário
@@ -102,6 +104,8 @@ A **Code Burger API** é uma API RESTful desenvolvida em Node.js para gerenciar 
 - Adicione o token no cabeçalho das suas requisições:
   - Header: Authorization
   - Valor: Bearer [token recebido]
+ 
+<img src="https://i.imgur.com/4Dqeali.png">
 
 Agora, você pode utilizar as demais funcionalidades do software.
 
@@ -139,4 +143,4 @@ Agora, você pode utilizar as demais funcionalidades do software.
 
 ---
 
-**Boa utilização!**
+**Bom uso!**
